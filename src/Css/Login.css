@@ -1,0 +1,150 @@
+body{
+    background-color: #121212;
+}
+li{
+    list-style: none;
+}
+.login-page{
+    justify-content: center;
+    text-align: center;
+    background-color: #424242;
+    width: 430px;
+    height: 480px;
+    margin: auto;
+    margin-top: 105px;
+}
+.signup-page{
+    justify-content: center;
+    text-align: center;
+    background-color: #424242;
+    width: 430px;
+    height: 670px;
+    margin: auto;
+    margin-top: 50px;
+}
+#brand-image{
+    width: 100px;
+    cursor: pointer;
+    border-radius:10px;
+
+}
+.login-social{
+    display: flex;
+    flex-direction: row;
+    outline-offset: 0cm;
+    padding-left: 172px;
+	margin:15px;
+    justify-content: center;
+	justify-content: space-between;
+	padding-right: 180px;
+    
+    
+}
+.login-email {
+	width: 320px;
+	padding: 30px;
+	padding-top: 156px;
+}
+
+.login__field {
+	padding: 20px 0px;	
+	position: relative;	
+}
+
+.login__icon {
+	position: absolute;
+	top: 30px;
+	color: #7875B5;
+}
+
+.login__input {
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #6A679E;
+}
+
+
+ .btn{
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0.9rem 2.5rem;
+  text-align: center;
+  background-color: #47AB11;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  font-size: 17px;
+}
+
+.form-field{
+	text-align: right;
+	padding-right: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.forgot_password a{
+	padding-left: 10px;
+    text-decoration: none;
+    color: blue;
+}
+form .btn:hover{
+    background-color:chartreuse;
+}
+#pass_error{
+    color: #dc3545;
+    text-align: left;
+    margin-top: 5px;
+    display: none;
+}
+#email_error{
+    color: #dc3545;
+  text-align: left;
+  margin-top: 5px;
+  display: none;
+}
+.new_user a{
+    text-decoration: none;
+    color: blue;
+}
+.login-social{
+    margin: 2px;
+}
+.forgot_password1{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 105px;
+    background-color: #424242;
+}
+#use_email{
+    text-align: center;
+    color: #121212;
+    font-size: large;
+    padding-top: 10px;
+}
+.or_account {
+    margin: 10px;
+    text-align: center;
+}
+.have_account a{
+    color: blue;
+    text-decoration: none;
+}
+#email{
+    text-align: center;
+    margin: 50px;
+}

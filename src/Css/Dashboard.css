@@ -1,0 +1,30 @@
+.bannerimage{
+  filter: opacity(30%);
+  display: grid;
+  min-width: 350px; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.centered{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  color:rgb(242, 4, 4);
+  padding-bottom: 150px;
+  transform: translate(-50%, -50%);
+}
+
+.middle-banner-section {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 250px; 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-content: center;
+    justify-content: center;
+  }
+  .banner-image-div {
+    grid-area: 1 / 1 / 2 / 3;
+  } 
